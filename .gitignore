@@ -1,0 +1,9 @@
+# Start of Added by Farhan
+*.exe
+*.obj
+*.bak
+*.bi
+*.qlb
+*.lib
+*.map
+# End of Added by Farhan
