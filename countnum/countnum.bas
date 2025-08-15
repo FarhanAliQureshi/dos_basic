@@ -1,0 +1,7 @@
+10 SCREEN 0:COLOR 7,0:CLS
+20 INPUT "Enter a number to count : ",NUM
+30 FOR X=1 TO NUM
+40 LOCATE 3,1:PRINT X
+50 NEXT X
+60 LOCATE 5,1:PRINT "End of Program."
+70 END
