@@ -1,14 +1,14 @@
 # BASIC Programs and Utilities for DOS
 ## QuickBASIC, QBasic, GW-BASIC, and Visual Basic for DOS
-I wrote these programs and utilities, in my tween years in the 90s, for MS-DOS 5.0 and MS-DOS 6.22 etc. I'll check each program's code, add comments, and maybe refactor it. After testing in FreeDOS or DOSBox, I'll add it here.
+I wrote these programs and utilities, in my tween years in the 90s, for MS-DOS 3.3, MS-DOS 5.0, and MS-DOS 6.22 etc. I'll check each program's code, add comments, and maybe refactor it. After testing in FreeDOS or DOSBox, I'll add it here.
 
 ## How to identify the BASIC interpreter
 * Most of the programs were written for QuickBASIC 4.5. They may run with QBasic.
-* If code file contains line numbers then use GW-BASIC.
+* If code file contains line numbers then use GW-BASIC 3.22.
 * If directory contains .MAK file then use Visual Basic 1.0 for DOS.
 
 Another way to identify the interpreter is to look for the following files in each directory:
-* `RUN.BAT` file for GW-BASIC
+* `RUN.BAT` file for GW-BASIC 3.22
 * `QBEDIT.BAT` for QuickBASIC 4.5
 * `VBEDIT.BAT` for Visual Basic 1.0 for DOS
 
