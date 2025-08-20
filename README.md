@@ -30,12 +30,18 @@ Another way to identify the interpreter is to look for the following files in ea
 
 ## Screenshots
 #### Math Table in GW-BASIC 3.22
+![Screenshot of Math Table](/assets/images/math_table.png)
 
 #### Text-Based Bismillah in QuickBASIC 4.5
+![Screenshot of Text-Based Bismillah](/assets/images/text_bismillah.png)
 
 #### Graphics Demo in QuickBASIC 4.5
+Menu of Graphics Demo
+
+![GIF of Graphics Demo menu](/assets/images/graphics_demo.gif)
 
 #### Graphical Bismillah in Visual Basic 1.0 for DOS
+![Screenshot of Graphical Bismillah](/assets/images/graphical_bismillah.png)
 
 ## Lost Projects
 There are many projects files which are probably lost forever due to corrupted copies of backup. I'll try to search and look in other backups. If I find more source code then I'll add them here.
