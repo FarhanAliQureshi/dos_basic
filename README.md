@@ -1,8 +1,16 @@
-# DOS QuickBASIC, QBasic, GW-BASIC, and Visual Basic for DOS
+# BASIC Programs and Utilities for DOS
+## QuickBASIC, QBasic, GW-BASIC, and Visual Basic for DOS
 I wrote these programs and utilities, in my tween years in the 90s, for MS-DOS 5.0 and MS-DOS 6.22 etc. I'll check each program's code, add comments, and maybe refactor it. After testing in FreeDOS or DOSBox, I'll add it here.
+
+## How to identify the BASIC interpreter
 * Most of the programs were written for QuickBASIC 4.5. They may run with QBasic.
 * If code file contains line numbers then use GW-BASIC.
-* If directory contains .MAK file then use Visual Basic for DOS.
+* If directory contains .MAK file then use Visual Basic 1.0 for DOS.
+
+Another way to identify the interpreter is to look for the following files in each directory:
+* `RUN.BAT` file for GW-BASIC
+* `QBEDIT.BAT` for QuickBASIC 4.5
+* `VBEDIT.BAT` for Visual Basic 1.0 for DOS
 
 ## Projects
 | Project | Interpreter | Description |
@@ -15,3 +23,10 @@ I wrote these programs and utilities, in my tween years in the 90s, for MS-DOS 5
 | [CommaNum](commanum/) | GW-BASIC | Count numbers up to the given number but display comma as thousand separator. Program prints number at a specific place on screen. If your computer is quite fast then try 1000 or any other large number. |
 | [MathTOld](mathtold/) | GW-BASIC | Prints out Math Table between 1 and 20, depending on the choice entered by the user. |
 | [MathTbl](mathtbl/) | GW-BASIC | Newer version of Math Table. Neatly prints out Math Table between 1 and 20, depending on user's input. It uses colors and cursor location. It's a spaghetti code with many GOTO statements. |
+| [Bism](bism/) | QuickBASIC | Display text-based Bismillah calligraphy using ASCII art. By default, the program will wait for 3 seconds before exiting. User can press any key to end the program before the timer is complete. User can supply their own wait time as a command-line argument, even a fraction of a second (0.5 for half a second). |
+| [BismKey](bismkey/) | QuickBASIC | Display text-based Bismillah calligraphy using ASCII art. Program will wait indefinitely until the user presses any key to end the program. |
+| [GrDemo](grdemo/) | QuickBASIC | I was learning and experimenting with the graphics library when I created this program; to showcase what I had learned, and the capabilities of QuickBASIC's graphics library. I recall that I felt proud of myself when I completed this program. </br></br>By looking at the code, at that point, I had learned functions and loops, however, I was still using GOTO commands. After reading some articles and books on the subject, I eventually stopped using GOTO, and learned to control the program flow without using it. |
+| [GrBism](grbism/) | Visual Basic | Display graphical Bismillah calligraphy. Program will wait indefinitely until the user presses any key to end the program. </br></br>I don't have much memory of how I wrote it. By looking at the code, it looks like I might have created helping tools to write down the line-art data. |
+
+## Lost Projects
+There are many projects files which are probably lost forever due to corrupted copies of backup. I'll try to search and look in other backups. If I find more source code then I'll add them here.
