@@ -43,6 +43,18 @@ Menu of Graphics Demo
 #### Graphical Bismillah in Visual Basic 1.0 for DOS
 ![Screenshot of Graphical Bismillah](/assets/images/graphical_bismillah.png)
 
+## Why not port to any modern BASIC interpreter or compiler?
+I researched on modern BASIC interpreters/dialects with active development, and short listed to following:
+| Compiler/Interpreter | Notes |
+| --- | --- |
+| QB64 | Active development. Doesn't run in DOS. Doesn't compile for DOS. |
+| FreeBASIC | Active development. Run and compile for DOS but only for 32-bit which requires Intel 80386 or later processors. |
+| PowerBASIC | Outdated compiler and commercial license required. Not free and open-source. |
+| PureBasic | Compiler doesn't target DOS. Not free and open-source. |
+| Xojo | Compiler doesn't target DOS. Not free and open-source. |
+
+I was looking for a FOSS project in active development, that can target 16-bit real-mode DOS (Intel 80286 and earlier processors), which is also compatible with QuickBASIC 4.5. However, I couldn't find any such BASIC compiler. The closest is FreeBASIC. I really like their efforts, however, it compiles for 32-bit processors (Intel 80386 and later processors). Therefore, as of now, I decided not to port to FreeBASIC.
+
 ## Lost Projects
 There are many projects files which are probably lost forever due to corrupted copies of backup. I'll try to search and look in other backups. If I find more source code then I'll add them here.
 
