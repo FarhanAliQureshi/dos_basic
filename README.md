@@ -33,15 +33,24 @@ Menu of Graphics Demo
 #### Graphical Bismillah in Visual Basic 1.0 for DOS
 ![Screenshot of Graphical Bismillah](/assets/images/graphical_bismillah.png)
 
-## How to identify the BASIC interpreter
+## How to identify the BASIC interpreter?
 * Most of the programs were written for QuickBASIC 4.5. They may run with QBasic.
 * If code file contains line numbers then use GW-BASIC 3.22.
 * If directory contains .MAK file then use Visual Basic 1.0 for DOS.
 
 Another way to identify the interpreter is to look for the following files in each directory:
-* `RUN.BAT` file for GW-BASIC 3.22
+* `RUN.BAT` for GW-BASIC 3.22
 * `QBEDIT.BAT` for QuickBASIC 4.5
 * `VBEDIT.BAT` for Visual Basic 1.0 for DOS
+
+## Build Instructions
+* Install [FreeDOS](https://freedos.org) or [DOSBox](https://www.dosbox.com)
+* Install [GW-BASIC](https://en.wikipedia.org/wiki/GW-BASIC), [QuickBASIC](https://en.wikipedia.org/wiki/QuickBASIC), and [Visual Basic for DOS](https://en.wikipedia.org/wiki/Visual_Basic_(classic)#Timeline)
+* Clone this repository
+* Change directory into any project, for example `CD dos_basic\randold`, then run: `run`
+
+> [!TIP]
+> I recommend using FreeDOS or DOSBox. However, you can also use MS-DOS 5.0 or MS-DOS 6.22 (or later), though I didn't test it.
 
 ## Why not port to any modern BASIC interpreter or compiler?
 I researched on modern BASIC interpreters/dialects with active development, and short listed to following:
@@ -59,4 +68,4 @@ I was looking for a FOSS project in active development, that can target 16-bit r
 There are many projects files which are probably lost forever due to corrupted copies of backup. I'll try to search and look in other backups. If I find more source code then I'll add them here.
 
 ## License
-Copyright © 1988-2025 by Farhan Ali Qureshi. View the [MIT LICENSE](LICENSE) file for details.
+Copyright © Farhan Ali Qureshi. All rights reserved. View the [MIT LICENSE](LICENSE) file for details.
